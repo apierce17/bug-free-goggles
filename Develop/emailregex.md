@@ -30,7 +30,7 @@ This expression's character class is ```d```, which corresponds to a single char
 Capturing group #1 in this expression is ```([a-z0-9_\.-]+)``` that matches the user email name. The second capturing group is ```([\da-z\.-]+)``` which will match the email service. Then lastly, capture group #3 is ```([a-z\.]{2,6})``` to capture the ```.com```.
 
 ### Bracket Expressions
-The character sets ```[a-z0-9_.-]```, which matches every letter a-z and is case sensitive, are used for email validation. It also matches characters "_", "-", and "."; ```[da-z.-]```, which matches a single digit from 0-9, any character a-z (case sensitive), and the characters "." and "-".; ```[a-z.]``` matches any character a-z(case sensitive) and the character ".".
+The character sets ```[a-z0-9_.-]```, which matches every letter a-z and is case sensitive, are used for email validation. It also matches characters ```_```, ```-```, and ```.```; ```[da-z.-]```, which matches a single digit from 0-9, any character a-z (case sensitive), and the characters ```.``` and ```-```.; ```[a-z.]``` matches any character a-z(case sensitive) and the character ```.```.
 
 ### Greedy and Lazy Match
 Greedy matches are included in this regex. It will match as many times as possible, giving back as required, since it contains the ```+``` Quantifier. When matching 2,6 for the last capture set, another greedy Quantifier ```{}``` is used in this regex.
