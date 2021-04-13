@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Email Regex - Tutorial
 
 This tutorial will show you how to use the expression ```/([a-z0-9 .-]+)@([da-z.-]+).([a-z.]2,6)$``` to match emails using regex. This is useful when using applications/technologies like Node (Inqurier) or MongoDB to validate emails.
 
@@ -37,4 +37,4 @@ Greedy matches are included in this regex. It will match as many times as possib
 
 ## Author
 
-Ashton Pierce - https://github.com/apierce17
+Ashton Pierce - [Github](https://github.com/apierce17)
